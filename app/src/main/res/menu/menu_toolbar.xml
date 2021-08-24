@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <group android:id="@+id/sorting" >
+            <item android:id="@+id/balance"
+                android:title="Balance"
+                android:icon="@drawable/search_black"
+                app:showAsAction="ifRoom" />
+        </group>
+
+        <group android:id="@+id/settings">
+
+            <item android:id="@+id/logout"
+                android:title="Registration"
+                app:showAsAction="collapseActionView"/>
+        </group>
+
+
+</menu>
